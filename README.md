@@ -71,7 +71,7 @@ In the above code we are creating a customElement with the component which we ha
 })
 ```
 
-5. When we build the project in production mode we will the static files in different versions like below
+6. When we build the project in production mode we will the static files in different versions like below
 
 ```
 'main-es2015.js',
@@ -119,8 +119,8 @@ Inside the package.json file add the below scripts to build the elements
 
 and when we run the project with the command `npm run build:elements` it will create the build file with a single js file
 
-6. Now we can upload the js file to any storage and we can use the reference in script tag
-7. Now create an html project and inside the index.html page import the script tag and import the tag like below `<user-poll> </user-poll>`
+7. Now we can upload the js file to any storage and we can use the reference in script tag
+8. Now create an html project and inside the index.html page import the script tag and import the tag like below `<user-poll> </user-poll>`
 
 Now we can run the angular project in any language like
 
